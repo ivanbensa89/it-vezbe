@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+  
+    <style>
+        .slika {
+            width: 400px;
+            transition: transform 1s ease-in-out;
+        }
+
+        .zoom {
+            transform: scale(0.5) rotate(0deg) translateZ(-100px);
+            border-radius: 50%;
+        }
+    </style>
+
+</head>
+<body>
+<div id="imageHolder">
+    <img class="slika" src="img/1.jpg" alt="kitty">
+    <img class="slika" src="img/2.jpg" alt="kitty">
+    <img class="slika" src="img/3.jpg" alt="kitty">
+</div>
+
+<script src="./script.js"></script>
+</body>
+</html>
